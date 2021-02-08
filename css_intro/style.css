@@ -1,0 +1,15 @@
+h1 {
+    color: red;
+}
+p {
+    font-size: 26px ;
+}
+div {
+    font-size: 40px;
+    background: blue;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid black;
+    margin: 0px;
+}
