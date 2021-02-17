@@ -1,0 +1,41 @@
+body {
+    background: pink
+}
+header {
+    background: lightgreen;
+    padding: 1em 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+h1 {
+    text-align: center;
+    background-color: palevioletred;
+    padding: .5em;
+    margin: 0;
+}
+h2 {
+    text-align: center;
+    background-color: orange;
+    padding: .5em;
+    margin: 0;
+}
+main {
+    width: 90vw;
+    margin: 0 auto;
+}
+section {
+    background-color: lightskyblue;
+    margin: 2em 0;
+}
+p {
+    padding: 1em;
+    font-size: 20px;
+}
+h3 {
+    background: yellow;
+    padding: 1em
+}
+footer {
+    background: lightgrey;
+    text-align: center;
+}
