@@ -1,0 +1,43 @@
+
+body {
+    background-image: url(gifs/space1.gif);
+}
+.P {
+    font-size: 40px;
+    font-family: monospace;
+    color: cornsilk;
+    text-align: center;
+}
+.p2{
+    font-size: 40px;
+    font-family: fantasy;
+    color: cornsilk;
+    text-align: right;
+}
+.balloon{
+    position: absolute;
+    top: 20%;
+    right: 80%;
+}
+
+.lady {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  .clown {
+    position: absolute;
+    top: 80%;
+    right: 20%;
+  }
+  div{
+      background-image: url(gifs/PIUPIUcristina.gif);
+      background-repeat: repeat-x;
+  }
+  .girl{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
