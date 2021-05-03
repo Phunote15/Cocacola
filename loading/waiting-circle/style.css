@@ -1,0 +1,26 @@
+.parent {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    background:burlywood;
+    justify-content: center;
+    align-items: center;
+  }
+  .circles {
+    width: 50px;
+    border: solid black 10px;
+    height: 50px;
+    border-left-color:palegreen;
+    border-radius: 50%;
+    animation-name: turn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes turn {
+    from {
+      transform:  rotateZ(0);
+    }
+    to {
+      transform:  rotateZ(360deg);
+    }
+  }

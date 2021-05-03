@@ -1,0 +1,9 @@
+.box {
+    width: 100vmin;
+    height: 10vmin;
+    background:cornsilk;
+    margin:  1rem;
+    display: center;
+    justify-content: center;
+    align-items: center;
+}

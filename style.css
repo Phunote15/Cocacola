@@ -60,6 +60,18 @@ h1 {
     flex-direction: row;
   }
   .box4{
+    width: 10vmin;
+    height: 10vmin;
+    background:cornsilk;
+    padding: rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    flex-direction: row;
+    }
+    .box5{
       width: 10vmin;
       height: 10vmin;
       background:cornsilk;
