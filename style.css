@@ -13,7 +13,12 @@ h1 {
          padding: 3rem;
       }
         
-  
+      .gallery {
+        display: grid;
+    
+        padding: 2em;
+        pointer-events: none;
+      }
   .children {
       display: flex;
       background-color: tomato;

@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 2em;
+    padding: 2em;
+    pointer-events: none;
+    max-width:100%;
+    max-height:80%;
+}
+  
+    img {
+      display: block;
+      width: 100%;
+      border-radius: .25em;
+      transition: 250ms 50ms;
+      pointer-events: auto;
+    }
+    
+    .children {
+        display: center;
+        max-width: max-content;
+        flex-direction: column;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: large;
+        background-color: orange;
+
+       }
+       .box {
+        width: 10vmin;
+        height: 10vmin;
+        background:cornsilk;
+        padding: rem;
+        margin:  1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        flex-direction: row;
+      }
+      .children2 {
+        display: flex;
+        max-width: max-content;
+       align-items: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: large;
+        background-color:paleturquoise
+       }
+       .circles {
+        width: 40px;
+        border: solid black 10px;
+        height: 40px;
+        border-left-color: pink;
+        border-radius: 70%;
+        animation-name: turn;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    
+      }
+      @keyframes turn {
+        from {
+          transform:  rotateZ(0);
+        }
+        to {
+          transform:  rotateZ(360deg);
+        }
+      }
