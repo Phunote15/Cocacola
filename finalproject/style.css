@@ -1,7 +1,7 @@
 body {
     font-family: "Lucida Bright", Georgia, serif;
     font-size: 13px;
-    background-image: url("/img/Screen\ Shot\ 2021-05-10\ at\ 3.21.45\ PM.png");
+    background-image: url("../img/Screen\ Shot\ 2021-05-10\ at\ 3.21.45\ PM.png");
   }
   .animalcard {
     display: flex;
