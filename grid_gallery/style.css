@@ -35,7 +35,7 @@
     background-size: cover;
     flex-direction: row;
   }
-  @media all and (max-width: 600px) {
+  @media all and (max-width: 300px) {
 .box{
     color: rgb(48, 99, 194);
 }
